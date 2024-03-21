@@ -66,7 +66,7 @@ public class PuzzleManager : MonoBehaviour
                 
             }
             
-            print( "Puzzle " + puzzle + " is: " + status);
+            print( "Puzzle: " + puzzle + " is: " + status);
 
         }
     

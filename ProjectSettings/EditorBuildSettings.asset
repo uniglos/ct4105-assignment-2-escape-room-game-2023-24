@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Escape Room Scene.unity
     guid: dff9e27874687b74cb1ebb829a53d3fc
   - enabled: 1
-    path: Assets/Scenes/Puzzle_Scene.unity
+    path: Assets/Scenes/Puzzle Picture Frame.unity
     guid: 8f6599c82728143468beeeac9a6be649
+  - enabled: 1
+    path: Assets/Scenes/Puzzle Tilt Maze.unity
+    guid: bef83431b6f33cc4686b09be7eb9dc82
   m_configObjects: {}

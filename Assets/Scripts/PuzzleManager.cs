@@ -94,4 +94,11 @@ public class PuzzleManager : MonoBehaviour
 
     }
 
+    void OnApplicationQuit()
+    {
+
+        //PlayerPrefs.DeleteAll();
+
+    }
+
 }

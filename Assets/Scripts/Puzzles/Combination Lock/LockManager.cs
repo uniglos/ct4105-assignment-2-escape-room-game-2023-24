@@ -17,9 +17,9 @@ public class LockManager : MonoBehaviour
     void Start()
     {
         
-        result = new int[] { 1, 1, 1 };
+        result = new int[] { 1, 1, 1, 1 };
 
-        correctCombination = new int[] { 3, 7, 9 };
+        //correctCombination = new int[] { 3, 7, 9 };
 
         LockRotate.Rotated += CheckResults;
 
@@ -37,21 +37,27 @@ public class LockManager : MonoBehaviour
             
             break;
 
-             case "Wheel_2":
+            case "Wheel_2":
 
                 result[1] = number;
             
             break;
 
-             case "Wheel_3":
+            case "Wheel_3":
 
                 result[2] = number;
             
             break;
 
+            case "Wheel_4":
+
+                result[3] = number;
+            
+            break;
+
         }
 
-        if( result[0] == correctCombination[0] && result[1] == correctCombination[1] && result[2] == correctCombination[2] )
+        if( result[0] == correctCombination[0] && result[1] == correctCombination[1] && result[2] == correctCombination[2] && result[3] == correctCombination[3] )
         {
 
             //Debug.Log( "Opened" );

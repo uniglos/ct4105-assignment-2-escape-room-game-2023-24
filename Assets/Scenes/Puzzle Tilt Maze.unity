@@ -797,7 +797,7 @@ MonoBehaviour:
   ObjectToRotate: {fileID: 1372098504}
   tiltSpeedModifier: 0.02
   complete: 0
-  nameOfPuzzle: Tilt_Maze_Manager
+  nameOfPuzzle: Puzzle_Tilt_Maze
   escapeRoomGameScene: Escape Room Scene
 --- !u!4 &1072868167
 Transform:

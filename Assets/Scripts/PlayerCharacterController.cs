@@ -35,7 +35,7 @@ public class PlayerCharacterController : MonoBehaviour
     void Update()
     {
 
-        print( _controller.isGrounded );
+        //print( _controller.isGrounded );
 
         if( _controller.isGrounded )
         {
